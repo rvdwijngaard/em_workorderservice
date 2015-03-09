@@ -1,0 +1,23 @@
+{
+  "name": "workorderservice",
+  "version": "1.0.0",
+  "description": "eMaintenance Workorder Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvdwijngaard/em_workorderservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvdwijngaard/em_workorderservice/issues"
+  },
+  "homepage": "https://github.com/rvdwijngaard/em_workorderservice",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}
