@@ -23,7 +23,7 @@ app.get('/', function(req, res){
 
 app.post('/', function(req, res){
 	console.log(req.body);
-	sns.publish({TopicArn : 'arn:aws:sns:eu-west-1:831844703282:EM-PART-REPLACED', Message: JSON.stringify(req.body) }, function(err){
+	sns.publish({TopicArn : 'arn:aws:sns:eu-west-1:831844703282:EM-PART-REPLACED', Message: JSON.stringify(req.body), Subject : 'PART_REPLACED' }, function(err){
 		res.sendStatus(200);
 	});
 });
